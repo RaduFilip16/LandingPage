@@ -1,7 +1,7 @@
 .first{
     color:white;
     background-color: #1F2937;
-    padding:20px 200px;
+    padding:20px 400px;
 }
 
 .header{
@@ -13,6 +13,10 @@
     
 }
 
+.links{
+    display: flex;
+    gap: 20px;
+}
 a{
     text-decoration: none;
     color: white;
@@ -27,7 +31,7 @@ a:hover{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap:140px;
+    gap:50px;
 }
 
 .hero .title{
@@ -47,24 +51,26 @@ a:hover{
 }
 
 .fbutton{
+  
     background-color: #3882F6 ;
     color: #E5E7EB;
     padding: 6px 25px;
     margin-top: 10px;
-    border: 0px;
+    border: 1px solid #3882F6;
     border-radius: 5px;
     font-weight: bold;
 
 }
 
 .fbutton:active{
+    
     border: 1px solid red;
     color: red;
 }
 
 .second{
     background-color: white;
-    padding:20px 200px;
+    padding:20px 430px;
     }
 
 h2{
@@ -95,14 +101,13 @@ h2{
 
 }
 
-
 .third{
     background-color: #E5E7EB;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 50px 300px;
+    padding: 50px 600px;
     gap:20px;
 }
 
@@ -126,7 +131,7 @@ h2{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 70px 200px;
+    padding: 70px 400px;
 }
 
 .banner{
